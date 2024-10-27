@@ -21,10 +21,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Inicio <span class="sr-only"></span></a>
+                        <a class="nav-link" href="/">Perfil<span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Perfil</a>
+                        <a class="nav-link" href="/posts">Posts</a>
                     </li>           
                 
                 </ul>
@@ -43,11 +43,11 @@
                 <div class="col-md-8">
                     <ul class="nav">
                         <li class="nav-item">
-                        <a href="index.html" class="nav-link link-light">Inicio</a>
+                        <a href="/" class="nav-link link-light">Perfil</a>
                         </li>
 
                         <li class="nav-item">
-                        <a href="details.html" class="nav-link link-light">Perfil</a>
+                        <a href="/posts" class="nav-link link-light">Posts</a>
                         </li>
                     </ul>
                 </div>

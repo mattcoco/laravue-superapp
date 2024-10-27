@@ -15,7 +15,7 @@ class UserProfileController extends Controller
         ];
 
         $posts = [
-            ['title' => 'Mi primera publicación', 'content' => 'Contenido de la primera publicación'],
+            ['title' => 'Mis intereses', 'content' => 'Viajar, lectura, cine...'],
             ['title' => 'Avances en mi carrera', 'content' => 'Hablando sobre mi carrera profesional'],
             ['title' => 'Nuevos proyectos', 'content' => 'Compartiendo mis últimos proyectos'],
         ];
