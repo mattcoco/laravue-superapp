@@ -4,3 +4,11 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}

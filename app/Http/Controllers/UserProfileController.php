@@ -10,7 +10,7 @@ class UserProfileController extends Controller
     {
         $user = [
             'name' => 'Juan Pérez',
-            'email' => 'juan@example.com',
+            'email' => 'juan@gmail.com',
             'bio' => 'Desarrollador de software y entusiasta de la tecnología.',
         ];
 
