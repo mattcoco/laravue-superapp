@@ -11,29 +11,24 @@
 <body>
     <header>
                 
-        <!-- <nav class="bg-primary">
-            <a href="/">Inicio</a>
-            <a href="/profile">Perfil</a>
-        </nav> -->
-
         <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
-        <a class="navbar-brand" href="#"><h1>Mi Aplicación</h1></a>
+            <a class="navbar-brand" href="#"><h1>Mi Aplicación</h1></a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio <span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Perfil</a>
-                </li>           
-            
-            </ul>
-        </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Perfil</a>
+                    </li>           
+                
+                </ul>
+            </div>
         </nav>
 
     </header>
@@ -42,9 +37,30 @@
         @yield('content')
     </main>
 
-    <footer>
-        <p>&copy; 2024 Mi Aplicación</p>
+    <footer class="border-top border-primary bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <ul class="nav">
+                        <li class="nav-item">
+                        <a href="index.html" class="nav-link link-light">Inicio</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a href="details.html" class="nav-link link-light">Perfil</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <p class="text-end d-none d-md-block">
+                        &copy; 2024 Mi Aplicación
+                    </p>
+                </div>
+            </div>
+        </div>
     </footer>
+
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

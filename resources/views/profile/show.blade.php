@@ -6,9 +6,9 @@
 @section('title', 'Perfil de Usuario')
 
 @section('content')
-    <div class="profile">
+    <div class="container p-4 p-lg-5">
         
-        <h2 class="m-5">Perfil de {{ $user['name'] }}</h2>
+        <h2>Perfil de {{ $user['name'] }}</h2>
         <p><strong>Email:</strong> {{ $user['email'] }}</p>
         <p><strong>Bio:</strong> {{ $user['bio'] }}</p>
 
