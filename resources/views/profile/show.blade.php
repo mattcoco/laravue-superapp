@@ -7,7 +7,8 @@
 
 @section('content')
     <div class="profile">
-        <h2 class="">Perfil de {{ $user['name'] }}</h2>
+        
+        <h2 class="m-5">Perfil de {{ $user['name'] }}</h2>
         <p><strong>Email:</strong> {{ $user['email'] }}</p>
         <p><strong>Bio:</strong> {{ $user['bio'] }}</p>
 
