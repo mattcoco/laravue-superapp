@@ -12,7 +12,7 @@
     <header>
                 
         <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
-            <a class="navbar-brand" href="#"><h1>Mi Aplicación</h1></a>
+            <a class="navbar-brand" href="/"><h1>Mi dashboard</h1></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,9 +24,12 @@
                         <a class="nav-link" href="/">Perfil<span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="/todos">Tareas</a>
+                    </li>                       
+                    {{-- Enlace a posts, funcionalidad similar a "tareas" pero que eliminé por que eran muy parecidas --}}
+                    {{-- <li class="nav-item">
                         <a class="nav-link" href="/posts">Posts</a>
-                    </li>           
-                
+                    </li>   --}}                
                 </ul>
             </div>
         </nav>
@@ -43,12 +46,16 @@
                 <div class="col-md-8">
                     <ul class="nav">
                         <li class="nav-item">
-                        <a href="/" class="nav-link link-light">Perfil</a>
+                            <a href="/" class="nav-link link-light">Perfil</a>
                         </li>
 
                         <li class="nav-item">
-                        <a href="/posts" class="nav-link link-light">Posts</a>
+                            <a href="/todos" class="nav-link link-light">Tareas</a>
                         </li>
+
+                        {{-- <li class="nav-item">
+                            <a href="/posts" class="nav-link link-light">Posts</a>
+                        </li> --}}
                     </ul>
                 </div>
                 <div class="col-md-4">

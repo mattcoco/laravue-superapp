@@ -8,7 +8,8 @@
 @section('content')
     <div class="container p-4 p-lg-5">
         
-        <h2>Perfil de {{ $user['name'] }}</h2>
+        <h2>Tu perfil</h2>
+        <p><strong>Usuario:</strong> {{ $user['name'] }}</p>
         <p><strong>Email:</strong> {{ $user['email'] }}</p>
         <p><strong>Bio:</strong> {{ $user['bio'] }}</p>
 
@@ -21,5 +22,6 @@
                 </li>
             @endforeach
         </ul>
+
     </div>
 @endsection

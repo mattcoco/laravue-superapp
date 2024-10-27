@@ -17,11 +17,14 @@
             @foreach ($toDos as $toDo)
                 <li class="list-group-item d-flex justify-content-between align-items-center">
                     {{ $toDo->task }}
-                    <form action="{{ route('todos.destroy', $toDo->id) }}" method="POST" style="display:inline;">
-                        @csrf
-                        @method('DELETE')
-                        <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
-                    </form>
+                    <div>
+                        <a href="{{ route('todos.edit', $toDo->id) }}" class="btn btn-warning btn-sm">Cambiar nombre</a>
+                        <form action="{{ route('todos.destroy', $toDo->id) }}" method="POST" style="display:inline;">
+                            @csrf
+                            @method('DELETE')
+                            <button type="submit" class="btn btn-success btn-sm">Completar</button>
+                        </form>
+                    </div>
                 </li>
             @endforeach
         </ul>
